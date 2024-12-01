@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komal Bhardwaj - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        section {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #333;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px;
+            flex: 1;
+            min-width: 280px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #555;
+        }
+        .card ul {
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Komal Bhardwaj</h1>
+    <p>Full Stack Developer | Web Developer | Technical Support Specialist</p>
+</header>
+
+<section>
+    <div class="container">
+        <div class="card">
+            <h2>About Me</h2>
+            <p>I am a passionate full stack web developer with experience in React, Angular, NodeJS, and more. I specialize in building dynamic web applications and delivering quality technical solutions.</p>
+        </div>
+
+        <div class="card">
+            <h2>Skills</h2>
+            <ul>
+                <li>React & JavaScript</li>
+                <li>NodeJS & Express</li>
+                <li>ASP.NET Core MVC</li>
+                <li>Database Management (SQL, MongoDB)</li>
+                <li>API Development (RESTful, GraphQL)</li>
+                <li>Cloud Platforms (AWS)</li>
+                <li>DevOps & CI/CD</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="card">
+            <h2>Certifications</h2>
+            <ul>
+                <li><strong>React JavaScript – Fundamentals to Coding & New Beginning</strong> - <a href="https://drive.google.com/drive/folders/1WIi0ZQr3wYru75JRgMYib6dhwmvl0ys7?usp=drive_link">View Certificate</a></li>
+                <li><strong>Diploma in MEAN Stack</strong> - <a href="https://drive.google.com/drive/folders/1WIi0ZQr3wYru75JRgMYib6dhwmvl0ys7?usp=drive_link">View Certificate</a></li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Contact</h2>
+            <form class="contact-form" action="mailto:Komal.1801255@gmail.com" method="POST" enctype="multipart/form-data">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Komal.1801255@gmail.comv" required>
+                <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Komal Bhardwaj | All rights reserved</p>
+</footer>
+
+</body>
+</html>
